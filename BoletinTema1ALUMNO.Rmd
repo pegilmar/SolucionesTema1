@@ -95,6 +95,17 @@ c.  Muestra los nombres de las filas y las columnas (**rownames**, **colnames**)
 #apartado a
 MASS::mammals
 robustbase::Animals2
+
+#apartado b
+dim(mammals)
+head(mammals)
+tail(mammals)
+str(mammals)
+
+dim(Animals2)
+head(Animals2)
+tail(Animals2)
+str(Animals2)
 ```
 
 d.  Usa la función **intersect** y almacena en la variable *commonAnimals* los aminales que aparezcan en ambos conjuntos
