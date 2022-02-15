@@ -1,8 +1,8 @@
 ---
 title: "Boletín Tema 1"
 subtitle: Tratamiento de Datos. Grado en Ciencia de Datos- UV
-author: "Marcelino Martínez"
-date:  "`r Sys.Date()`"  #Pondría la fecha del día actual
+author: "Pedro Gil Martin"
+date:  "`r Sys.Date(15/02/2022)`"  #Pondría la fecha del día actual
 params:
   lang: ES
 lang: "`r switch(params$lang, ES = 'es-ES', EN = 'en-US')`"
