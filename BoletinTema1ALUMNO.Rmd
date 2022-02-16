@@ -160,6 +160,10 @@ qqPlot(log(Animals2$brain))
     libReturn <- library()
     libReturn
     #Observamos un montón de librerias con su respectiva descripción.
+
+    #apartado b
+    head(libReturn$results, n=5)
+    #Se muestran los 5 primeros elementos solicitados con sus respectivos títulos.
     ```
 
 4.  En las transparencias del tema 1 se citan los primeros pasos a seguir cuando se analiza un nuevo conjunto de datos.
