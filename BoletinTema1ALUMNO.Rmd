@@ -185,9 +185,9 @@ tail(cabbages)
 str(cabbages)
 glimpse(cabbages)
 
-
-
-
+#apartado b
+any(is.na(cabbages))
+#Por tanto, no hay valores perdidos en el conjunto de datos cabbages.
 
 
 
