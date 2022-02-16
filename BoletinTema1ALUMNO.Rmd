@@ -164,6 +164,10 @@ qqPlot(log(Animals2$brain))
     #apartado b
     head(libReturn$results, n=5)
     #Se muestran los 5 primeros elementos solicitados con sus respectivos títulos.
+
+    #apartado c
+    search()
+    #Se puede comprobar que en este momento tengo instaladas 24 librerias.
     ```
 
 4.  En las transparencias del tema 1 se citan los primeros pasos a seguir cuando se analiza un nuevo conjunto de datos.
