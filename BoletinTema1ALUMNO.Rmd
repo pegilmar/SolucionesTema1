@@ -189,13 +189,17 @@ glimpse(cabbages)
 any(is.na(cabbages))
 #Por tanto, no hay valores perdidos en el conjunto de datos cabbages.
 
+#apartado c
+dim(Chile)
+head(Chile)
+tail(Chile)
+str(Chile)
+glimpse(Chile)
 
-
-
-
-
-
-
+any(is.na(Chile))
+#Vemos que en el conjunto de datos Chile si hay valores perdidos.
+colSums(sapply(Chile, is.na))
+#En concreto vemos que tenemos 295 valores perdidos.
 
 
 
